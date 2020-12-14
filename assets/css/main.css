@@ -134,9 +134,9 @@ body {
   left: 0;
   right: 0;
 }
-#sectionTwo {
+/* #sectionTwo {
   padding-top: 100px;
-}
+} */
 #readMoreAboutUs {
   margin-left: 45%;
 }
@@ -253,47 +253,18 @@ body {
 }
 
 /* ABOUT US */
+#aboutMainContainer {
+  padding-top: 200px;
+  margin: auto;
+  background-color: #ffffff;
+  color: black;
+}
 
-#mainContainer {
-  margin: auto;
-  background-color: #ffffff;
+.aboutContainer {
+  padding-top: 175px;
 }
-#cardAboutus {
-  padding-top: 130px;
-  background-color: #ffffff;
-  border: #ffffff;
-}
-#imgAboutUs {
-  width: 40%;
-  margin: auto;
-}
+
 /* CONTACT US */
-
-/* input[type="text"],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}*/
 
 #formContainer {
   margin-top: 150px;
@@ -303,22 +274,6 @@ input[type="submit"]:hover {
   color: #0c3c60;
 }
 
-/*section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
- #frmContainer {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0px 0px 20px#fbd1c1;
-  background-color: white;
-  border-radius: 8px;
-  margin-bottom: 20px;
-} */
 .form-group {
   margin-top: 20px;
   font-size: 15px;
@@ -389,6 +344,14 @@ button[type="submit"]:hover {
     pointer-events: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #contactContainerOne,
+  #contactContainerTwo {
+    width: 100%;
+  }
+}
+
 /* Services */
 #classContainer {
   padding-right: 50px;
